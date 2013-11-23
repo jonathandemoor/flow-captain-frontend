@@ -1,10 +1,22 @@
+@import "variables";
+
 header {
   height: 400px;
+  overflow: hidden;
+  border-top: 5px solid $dark-orange;
   background: url("../images/header_bg.png") center bottom no-repeat;
+
+  @media all and (max-width: $breakpoint-tablet) {
+    height: 300px;
+  }
+
+  @media all and (max-width: $breakpoint-phone) {
+    height: 200px;
+  }
   
   h1 {
     margin: 0;
     padding: 0;
-    color: #fff;
+    margin-top: 30px;
   }
 }

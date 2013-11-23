@@ -1,7 +1,17 @@
+@import "variables";
+
 h1 {
   color: #fff;
   font-size: 4em;
   font-family: $lato;
   text-transform: uppercase;
   text-align: center;
+
+  @media all and (max-width: $breakpoint-tablet) {
+    font-size: 3em;
+  }
+
+  @media all and (max-width: $breakpoint-phone) {
+    font-size: 2em;
+  }
 }
