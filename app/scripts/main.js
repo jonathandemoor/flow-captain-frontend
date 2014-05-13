@@ -1,0 +1,1 @@
+$('header .title h1').transition({ top: '0px', delay: 300}, 1000, 'ease');

@@ -1,0 +1,33 @@
+@import "variables";
+
+section.content {
+  width: 800px;
+  margin: 20px auto 0 auto;
+
+  @media all and (max-width: $breakpoint-tablet) {
+    width: 600px;
+  }
+
+  @media all and (max-width: $breakpoint-phone) {
+
+  }
+
+  .quote {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 4em;
+    font-family: $lato;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+
+    @media all and (max-width: $breakpoint-tablet) {
+      width: 400px;
+      font-size: 3em;
+    }
+
+    @media all and (max-width: $breakpoint-phone) {
+
+    }
+  }
+}
